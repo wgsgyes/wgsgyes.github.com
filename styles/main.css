@@ -975,17 +975,21 @@ td {
   font-weight: bold;
 }
 
+      .main {
+        max-width: 80px;
+      }
+    
       .post-container .post .post-title {
-        text-align: left;
+        text-align: center;
       }
       .post-container .post .post-info {
-        text-align: left;
+        text-align: center;
       }
       .post-detail .post .post-title {
-        text-align: left;
+        text-align: center;
       }
       .post-detail .post .post-info {
-        text-align: left;
+        text-align: center;
       }
     
       body {
