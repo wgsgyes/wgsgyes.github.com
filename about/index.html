@@ -1,100 +1,120 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
 
-<title>关于 | 个人博客</title>
-<meta name="description" content="坐朝问道，垂拱平章">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://wgsgyes.github.io/blog/favicon.ico?v=1593313989688">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    关于 | 个人博客
+</title>
+<link rel="shortcut icon" href="http://wgsgyes.github.io/blog/favicon.ico?v=1593322717448">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://wgsgyes.github.io/blog/styles/main.css">
-
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://wgsgyes.github.io/blog/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
 
+                    
+                            
+</head>
 
-  </head>
-  <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://wgsgyes.github.io/blog">个人博客</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="http://wgsgyes.github.io/blog">
+                <img class="avatar" src="http://wgsgyes.github.io/blog/images/avatar.png?v=1593322717448" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    个人博客
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
     </div>
-  </div>
-</nav>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>关于</h1>
-            <p class="article-meta">
-              2019-01-25
-              
-            </p>
-            
-            <div class="post-content">
-              <blockquote>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            关于
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2019-01-25</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <blockquote>
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
 <h2 id="关于本站">🏠 关于本站</h2>
@@ -102,120 +122,108 @@
 <h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
 <h2 id="联系我呀">📬 联系我呀</h2>
 
-            </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
+<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
+<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
+<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+</ul>
+</li>
+</ul>
 
-          
-        
-      </div>
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
 
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://wgsgyes.github.io/blog/images/avatar.png?v=1593313989688" class="no-responsive avatar">
-    <div class="text-muted">坐朝问道，垂拱平章</div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="http://wgsgyes.github.io/blog/ce-shi-biao-ti/">测试标题</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://wgsgyes.github.io/blog/ke-cheng-zi-liao-xia-zai/">课程资料下载：</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://wgsgyes.github.io/blog/about/">关于</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Github</a> | <a class="rss" href="http://wgsgyes.github.io/blog/atom.xml" target="_blank">RSS</a>
-  </div>
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Github</a> | 
+  <a class="rss" href="http://wgsgyes.github.io/blog/atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
 
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    </div>
     <script>
-
-      var gitalk = new Gitalk({
-        clientID: 'a7f9a55fd17d8e2f3035',
-        clientSecret: 'e0b573f274964097006ee218ee2de10deeeb088a',
-        repo: 'wgsgyes.github.io',
-        owner: 'wgsgyes',
-        admin: ['wgsgyes'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
     </script>
-  
+    
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: 'a7f9a55fd17d8e2f3035',
+            clientSecret: 'e0b573f274964097006ee218ee2de10deeeb088a',
+            repo: 'wgsgyes.github.io',
+            owner: 'wgsgyes',
+            admin: ['wgsgyes'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
 
-  
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
 
+                    
+                                
+</body>
 
-
-
-  </body>
 </html>
