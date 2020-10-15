@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>个人博客</title>
+<title>课程资料下载： | 个人博客</title>
 <meta name="description" content="坐朝问道，垂拱平章">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://wgsgyes.github.com/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://wgsgyes.github.com">个人博客</a></h3>
@@ -76,41 +83,39 @@
   </div>
 </nav>
 
-
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
+          <article class="article">
+            <h1>课程资料下载：</h1>
+            <p class="article-meta">
+              2020-06-20
+              
+            </p>
+            
+            <div class="post-content">
+              <p>各位同学：</p>
+<p>若无法下载课程资料，请发邮件通知我（邮箱地址在第一堂课的PPT中）。</p>
+<p>课程资料下载：</p>
+<p>链接: https://pan.baidu.com/s/1ygprI0CVXQNsAgNdDYrgbw 提取码: yy3k</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
           
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://wgsgyes.github.com/download/">课程资料下载：</a>
-    </h2>
-    <p class="article-meta">
-      2020-06-20
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://wgsgyes.github.com/download/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
         </div>
         
-        <div class="row flex-edges">
-  
-  
-</div>
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
+        
       </div>
-      
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://wgsgyes.github.com/images/avatar.png?v=1602778508122" class="no-responsive avatar">
@@ -158,7 +163,9 @@
   </div>
 </div>
 
+
     </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">
@@ -168,6 +175,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'a7f9a55fd17d8e2f3035',
+        clientSecret: 'e0b573f274964097006ee218ee2de10deeeb088a',
+        repo: 'wgsgyes.github.io',
+        owner: 'wgsgyes',
+        admin: ['wgsgyes'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
