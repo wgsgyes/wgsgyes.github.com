@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://wgsgyes.github.io/blog</id>
+    <id>https://wgsgyes.github.com/blog</id>
     <title>个人博客</title>
-    <updated>2020-06-28T05:56:27.040Z</updated>
+    <updated>2020-10-15T15:53:32.087Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://wgsgyes.github.io/blog"/>
-    <link rel="self" href="http://wgsgyes.github.io/blog/atom.xml"/>
+    <link rel="alternate" href="https://wgsgyes.github.com/blog"/>
+    <link rel="self" href="https://wgsgyes.github.com/blog/atom.xml"/>
     <subtitle>坐朝问道，垂拱平章</subtitle>
-    <logo>http://wgsgyes.github.io/blog/images/avatar.png</logo>
-    <icon>http://wgsgyes.github.io/blog/favicon.ico</icon>
+    <logo>https://wgsgyes.github.com/blog/images/avatar.png</logo>
+    <icon>https://wgsgyes.github.com/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, 个人博客</rights>
     <entry>
-        <title type="html"><![CDATA[测试标题]]></title>
-        <id>http://wgsgyes.github.io/blog/ce-shi-biao-ti/</id>
-        <link href="http://wgsgyes.github.io/blog/ce-shi-biao-ti/">
-        </link>
-        <updated>2020-06-27T13:45:22.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="一级标题">一级标题</h1>
-<ul>
-<li>二级标题</li>
-</ul>
-<h1 id=""></h1>
-<figure data-type="image" tabindex="1"><img src="http://wgsgyes.github.io/blog/post-images/1593309043180.jpg" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[课程资料下载：]]></title>
-        <id>http://wgsgyes.github.io/blog/ke-cheng-zi-liao-xia-zai/</id>
-        <link href="http://wgsgyes.github.io/blog/ke-cheng-zi-liao-xia-zai/">
+        <id>https://wgsgyes.github.com/blog/ke-cheng-zi-liao-xia-zai/</id>
+        <link href="https://wgsgyes.github.com/blog/ke-cheng-zi-liao-xia-zai/">
         </link>
         <updated>2020-06-20T10:55:32.000Z</updated>
         <content type="html"><![CDATA[<p>各位同学：</p>
 <p>若无法下载课程资料，请发邮件通知我（邮箱地址在第一堂课的PPT中）。</p>
 <p>课程资料下载：</p>
-<p>链接:  https://pan.baidu.com/s/1J08VylpmbGqplXdgdPtsCQ  提取码: qb9z</p>
+<p>链接: https://pan.baidu.com/s/1ygprI0CVXQNsAgNdDYrgbw 提取码: yy3k</p>
 ]]></content>
     </entry>
 </feed>
