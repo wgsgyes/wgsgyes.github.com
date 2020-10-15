@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://wgsgyes.github.com/blog</id>
+    <id>https://wgsgyes.github.com</id>
     <title>个人博客</title>
-    <updated>2020-10-15T15:59:03.815Z</updated>
+    <updated>2020-10-15T16:01:29.903Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://wgsgyes.github.com/blog"/>
-    <link rel="self" href="https://wgsgyes.github.com/blog/atom.xml"/>
+    <link rel="alternate" href="https://wgsgyes.github.com"/>
+    <link rel="self" href="https://wgsgyes.github.com/atom.xml"/>
     <subtitle>坐朝问道，垂拱平章</subtitle>
-    <logo>https://wgsgyes.github.com/blog/images/avatar.png</logo>
-    <icon>https://wgsgyes.github.com/blog/favicon.ico</icon>
+    <logo>https://wgsgyes.github.com/images/avatar.png</logo>
+    <icon>https://wgsgyes.github.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 个人博客</rights>
     <entry>
         <title type="html"><![CDATA[课程资料下载：]]></title>
-        <id>https://wgsgyes.github.com/blog/ke-cheng-zi-liao-xia-zai/</id>
-        <link href="https://wgsgyes.github.com/blog/ke-cheng-zi-liao-xia-zai/">
+        <id>https://wgsgyes.github.com/ke-cheng-zi-liao-xia-zai/</id>
+        <link href="https://wgsgyes.github.com/ke-cheng-zi-liao-xia-zai/">
         </link>
         <updated>2020-06-20T10:55:32.000Z</updated>
         <content type="html"><![CDATA[<p>各位同学：</p>
