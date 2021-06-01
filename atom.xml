@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.20110814.xyz</id>
+    <id>http://blog.20110814.xyz</id>
     <title>个人博客</title>
-    <updated>2021-06-01T01:56:27.060Z</updated>
+    <updated>2021-06-01T01:57:46.576Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.20110814.xyz"/>
-    <link rel="self" href="https://blog.20110814.xyz/atom.xml"/>
+    <link rel="alternate" href="http://blog.20110814.xyz"/>
+    <link rel="self" href="http://blog.20110814.xyz/atom.xml"/>
     <subtitle>坐朝问道，垂拱平章</subtitle>
-    <logo>https://blog.20110814.xyz/images/avatar.png</logo>
-    <icon>https://blog.20110814.xyz/favicon.ico</icon>
+    <logo>http://blog.20110814.xyz/images/avatar.png</logo>
+    <icon>http://blog.20110814.xyz/favicon.ico</icon>
     <rights>All rights reserved 2021, 个人博客</rights>
     <entry>
         <title type="html"><![CDATA[测试20210511]]></title>
-        <id>https://blog.20110814.xyz/ShcHjFUOG/</id>
-        <link href="https://blog.20110814.xyz/ShcHjFUOG/">
+        <id>http://blog.20110814.xyz/ShcHjFUOG/</id>
+        <link href="http://blog.20110814.xyz/ShcHjFUOG/">
         </link>
         <updated>2021-05-11T02:37:21.000Z</updated>
         <content type="html"><![CDATA[<p>测试</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[测试20210324]]></title>
-        <id>https://blog.20110814.xyz/i12hTjq9G/</id>
-        <link href="https://blog.20110814.xyz/i12hTjq9G/">
+        <id>http://blog.20110814.xyz/i12hTjq9G/</id>
+        <link href="http://blog.20110814.xyz/i12hTjq9G/">
         </link>
         <updated>2021-03-24T08:12:18.000Z</updated>
         <content type="html"><![CDATA[<p>试试</p>
@@ -30,8 +30,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[课程资料下载：]]></title>
-        <id>https://blog.20110814.xyz/download/</id>
-        <link href="https://blog.20110814.xyz/download/">
+        <id>http://blog.20110814.xyz/download/</id>
+        <link href="http://blog.20110814.xyz/download/">
         </link>
         <updated>2020-06-20T10:55:32.000Z</updated>
         <content type="html"><![CDATA[<p>各位同学：</p>
